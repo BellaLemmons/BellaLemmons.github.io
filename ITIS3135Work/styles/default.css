@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(#1c1c78, #501c78);
+    background-attachment: fixed;
+    color: #e9e9f0;
+}
+
+header, footer, h2, p:not(.contract){
+    text-align: center;
+}
+
+img{
+    width: 260px;
+    height: 457px;
+}
+
+figure{
+    text-align: center;
+}
+
+div{
+    padding: 15%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+blockquote{
+    text-align: center;
+}
+
+h1{
+    background-color: #0a0a36;
+    color: #e9e9f0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #c2277c;
+}
+
+a:hover{
+    color: #ca5f21 
+}
+
+a:visited{
+    color: #d88f21;
+}
+
+p:is(#intro){
+    text-align: left;
+}
