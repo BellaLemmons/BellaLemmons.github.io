@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Bitcount);
+
+h1{
+    text-align: center;
+    font-family: 'Bitcount', "Courier New", Courier, monospace;
+}
+
+body{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    background-image: url("arcade-floor.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color: #dfdfe6;
+}
+
+.container {
+    background: linear-gradient(#0a1361, #410a61), #0a1361;
+    max-width: 70%;
+    height: 100%;
+    padding: 40px;
+    margin: auto;
+    border-radius: 15px;
+    border-style: groove;
+    border-color: white;
+}
+
+#arcade-machines{
+    width: 300px;
+    height: 400px;
+}
+#itislink{
+    text-decoration: none;
+}
+#itislink:link{
+    color: #db2ea4;
+}
+
+#itislink:active{
+    color:#db532e;
+}
+
+#itislink:visited{
+    color:#db831f;
+}
+
+#itislink:hover{
+    color: #f2b955;
+}
