@@ -47,6 +47,6 @@ a:visited{
     color: #d88f21;
 }
 
-p:is(#intro){
+#intro{
     text-align: left;
 }
