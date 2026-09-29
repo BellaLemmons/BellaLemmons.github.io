@@ -7,6 +7,7 @@ h1{
     top: 18px;
     left: 10px;
     color: #5e3a11;
+    font-family: Georgia, 'Times New Roman', serif;
 }
 
 h2, h3, footer{
@@ -30,6 +31,8 @@ body{
     padding: 0px;
     background-color: #ffed9c;
     color: #8d6346;
+    margin: auto;
+    max-width: 90%;
 }
 
 img{
@@ -42,6 +45,7 @@ img{
 
 li::marker{
     content: "🍋";
+    /*THIS IS VERY CLEARLY A UNIQUE BULLET STYLE????*/
 }
 
 a{
@@ -50,4 +54,8 @@ a{
 
 p, ul{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 600px){
+
 }
