@@ -1,3 +1,4 @@
+
 body:not(h1){ 
     background: linear-gradient(#1c1c78, #501c78);
     background-attachment: fixed;
@@ -7,8 +8,7 @@ body:not(h1){
     font-family: 'Book Antiqua', serif;
 }
 
-
-header, footer, h2, p:not(.contract){
+header, footer, h2, p:not(.left), blockquote{
     text-align: center;
 }
 
@@ -32,10 +32,6 @@ div{
     padding-bottom: 0;
 }
 
-blockquote{
-    text-align: center;
-}
-
 h1{
     background-color: #0a0a36;
     color: #e9e9f0;
@@ -52,10 +48,6 @@ a{
 
 a:hover{
     color: #ca5f21 
-}
-
-#intro{
-    text-align: left;
 }
 
 @media screen and (max-width: 600px){
