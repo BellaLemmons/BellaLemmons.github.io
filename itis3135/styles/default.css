@@ -26,7 +26,7 @@ figure{
     text-align: center;
 }
 
-div{
+div:not(#header){
     padding: 15%;
     padding-top: 0;
     padding-bottom: 0;
@@ -48,6 +48,13 @@ a{
 
 a:hover{
     color: #ca5f21 
+}
+
+h6{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 0.5px;
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 600px){
