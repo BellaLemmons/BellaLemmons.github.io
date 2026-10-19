@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>All About Crocheting! | name</title>
+        <title>All About Crocheting! | What Is Crocheting?</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Rampart+One&family=Yuyu&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <!--Embedded stylesheet-->
         <style>
             body{
@@ -84,7 +85,6 @@
 
             }
         </style>
-        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <script src="https://divonbriesen.github.io/teaching/tools/standards-check.js" defer></script>
         <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
     </head>
@@ -94,16 +94,16 @@
         <header>
             <h1>All About Crocheting!</h1>
             
-            <nav>
+            <nav class="navbar">
                 <div class="bg">
                     <p>
-                        <a href="#what">What</a> *
-                        <a href="#who">Who</a> * 
-                        <a href="#when">When</a> * 
-                        <a href="#where">Where</a> *
-                        <a href="#why">Why</a> *
-                        <a href="#how">How</a> *
-                        <a  href="#ai">AI Prompts</a>
+                        <a href="#what" onclick="showSection('what')">What</a> *
+                        <a href="#who" onclick="showSection('who')">Who</a> * 
+                        <a href="#when" onclick="showSection('when')">When</a> * 
+                        <a href="#where" onclick="showSection('where')">Where</a> *
+                        <a href="#why" onclick="showSection('why')">Why</a> *
+                        <a href="#how" onclick="showSection('how')">How</a> *
+                        <a  href="#ai" onclick="showSection('ai')">AI Prompts</a>
                     </p>
                 </div>
                 
@@ -132,8 +132,6 @@
                 </div>
             </div>
         </section>
-            
-        <br>
     
         <section id="who">
             <div class="grid">
@@ -159,8 +157,6 @@
                 </div>
             </div>
         </section>
-        
-        <br>
 
         <section id="when">
             <div class="grid">
@@ -185,8 +181,6 @@
             </div>
         </section>
 
-        <br>
-
         <section id="where">
             <div class="grid">
                 <div class="heading">
@@ -208,8 +202,6 @@
                 </div>
             </div>
         </section>
-
-        <br>
 
         <section id="how">
             <div class="grid">
@@ -242,8 +234,6 @@
             </div>
         </section>
 
-        <br>
-
         <section id="why">
             <div class="grid">
                 <div class="heading">
@@ -275,8 +265,6 @@
             </div>
         </section>
 
-        <br>
-
         <section id="ai">
             <div class="grid">
                 <div class="heading">
@@ -306,5 +294,18 @@
             <p>Designed by <a href="../atouchoflemmons.com/index.html">A Touch of Lemmons </a>&#169;2026 | Certified in HTML/CSS &lpar;pending&rpar;</p>
             <p><em>All you need is a little Lemmons zest!</em></p>
         </footer>
+
+        <script>
+            function showSection(id){
+                const sections = document.querySelectorAll('section');
+                for (section of sections){
+                    section.style.display = 'none';
+                }
+                const currSection = document.getElementById(id);
+                currSection.style.display = 'block';
+                document.title = "All About Crocheting! | " + currSection.querySelector('h2').textContent;
+            }
+            window.onload = showSection('what');
+        </script>
     </body>
 </html>
