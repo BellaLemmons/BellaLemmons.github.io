@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bella Lemmons's Bright-colored Lizard | ITIS3135 | Everything Pictures</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/default.css">
+        <link rel="icon" type="image/x-icon" href="../images/spaceinvader.ico">
+        <script src="https://divonbriesen.github.io/teaching/tools/standards-check.js" defer></script>
+        <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div data-include="components/header.html"></div>
+        <!--Div and class used to maintain consistent margin and padding between all pages. Inline styles used as per assignment instructions.-->
+        <main>
+        <h2>Everything Pictures</h2>
+        <div class="container">
+            <p>The purpose of this page is to compare and contrast the differences in photos when they are manipulated in different ways, as well as when different file types are used.</p>
+
+            <section>
+                <h3>Image Manipulation with an Arcade Button Photo from Pexels.com</h3>
+                <p>This photo was taken by Dan Butler, a photographer who posts a wide array of photos: Objects, buildings, boudoir, landscapes, whatever seems to catch his eye.
+                    The photo focuses on an arcade machine, with the buttons of said arcade machine focused while everything else is blurred. I picked this because I love the aesthetic of arcades
+                    and thought that this was a really pretty picture of one. It's a ".jpg" image with a 3:2 aspect ratio and dimensions of 5616 x 3744. It takes 1.05MB of storage.
+                </p>
+            <article>
+                <h4>Original Image</h4>
+                <p><a href="images/vibrant-retro-arcade-machine-with-joysticks-and-buttons-29702644@dan-butler-pexels.jpg" target="_blank">Original Image in .jpg Format</a> |
+                <a href="images/gif-vibrant-retro-arcade-machine-with-joysticks-and-buttons-29702644@dan-butler-pexels.gif" target="_blank">Original Image as a GIF</a> | <a href="images/greyscale-vibrant-retro-arcade-machine-with-joysticks-and-buttons-29702644@dan-butler-pexels.png" target="_blank">Original Image in Greyscale</a> |
+                 <a href="images/bw-vibrant-retro-arcade-machine-with-joysticks-and-buttons-29702644@dan-butler-pexels.jpg" target="_blank">Original Image in Black and White</a></p>
+            </article>
+            
+            <article>
+                <h4>Downsizing Images with CSS</h4>
+                <figure>
+                    <img style="width: 300px; height: 200px;" src="images/vibrant-retro-arcade-machine-with-joysticks-and-buttons-29702644@dan-butler-pexels.jpg" alt="A photo of an arcade cabinet focused on the buttons.">
+                    <figcaption>The original image downsized to 300x200 using CSS.</figcaption>
+                </figure>
+            </article>
+
+            <article>
+                <h4>Proper Reduction of Image with Editor</h4>
+                <figure>
+                    <img src="images/300x200-vibrant-retro-arcade-machine-with-joysticks-and-buttons-29702644@dan-butler-pexels.jpg" alt="A photo of an arcade cabinet focused on the buttons, resized to 300 x 200.">
+                    <figcaption>The original image downsized to 300x200 using an image editor.</figcaption>
+                </figure>
+            </article>
+            
+            <article>
+                <h4>Improper Image Proportions with CSS</h4>
+                <figure>
+                    <img style="width: 300px; height: 66px;" src="images/300x200-vibrant-retro-arcade-machine-with-joysticks-and-buttons-29702644@dan-butler-pexels.jpg" alt="A photo of an arcade cabinet focused on the buttons, resized to 300 x 200.">
+                    <figcaption>
+                        The resized image with its height set to 66px (33% of 200).
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img style="width: 300px; height: 22px;" src="images/300x200-vibrant-retro-arcade-machine-with-joysticks-and-buttons-29702644@dan-butler-pexels.jpg" alt="A photo of an arcade cabinet focused on the buttons, resized to 300 x 200.">
+                    <figcaption>
+                        The resized image with its height set to 22px (~33% of 66).
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img style="width: 99px; height: 200px;" src="images/300x200-vibrant-retro-arcade-machine-with-joysticks-and-buttons-29702644@dan-butler-pexels.jpg" alt="A photo of an arcade cabinet focused on the buttons, resized to 300 x 200.">
+                    <figcaption>
+                        The resized image with its width set to 99px (33% of 300).
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img style="width: 33px; height: 200px;" src="images/300x200-vibrant-retro-arcade-machine-with-joysticks-and-buttons-29702644@dan-butler-pexels.jpg" alt="A photo of an arcade cabinet focused on the buttons, resized to 300 x 200.">
+                    <figcaption>
+                        The resized image with its width set to 33px (~33% of 99).
+                    </figcaption>
+                </figure>
+            </article>
+
+            <article>
+                <h4>Improper Enlarging with CSS</h4>
+                <figure>
+                    <img src="images/300x200-vibrant-retro-arcade-machine-with-joysticks-and-buttons-29702644@dan-butler-pexels.jpg" alt="A photo of an arcade cabinet focused on the buttons.">
+                    <figcaption>The resized image, unchanged.</figcaption>
+                </figure>
+
+                <figure>
+                    <img style="width: 300px; height: 200px;" src="images/75x50-vibrant-retro-arcade-machine-with-joysticks-and-buttons-29702644@dan-butler-pexels.jpg" alt="A photo of an arcade cabinet focused on the buttons.">
+                    <figcaption>The resized image downsized to 75x50 using an image editor, then resized to 300x200 using CSS.</figcaption>
+                </figure>
+                
+            </article>
+
+            </section>
+
+            <hr>
+
+            <section>
+                <h3>Image Manipulation with a DS Game and Stylus Case Photo</h3>
+                <p>This photo was taken by me, Bella! I picked it because it was the nearest square object I have and I thought it'd still work well with the overall theme of my website.
+                    The image is of a square-shaped case with rainbow liquid printed on its front, with my hand holding a peace-sign pose next to it. It's a ".jpg" image with an aspect ratio of almost 6:7 and dimensions of 2981 x 3492 pixels.
+                    It takes 2.99MB of space.
+                </p>
+
+                <article>
+                <h4>Original Image</h4>
+                <p><a href="images/ds-case-with-hand@bella-lemmons.jpg" target="_blank">Original Image in .jpg Format</a> |
+                <a href="images/gif-ds-case-with-hand@bella-lemmons.gif" target="_blank">Original Image as a GIF</a> | <a href="images/greyscale-ds-case-with-hand@bella-lemmons.png" target="_blank">Original Image in Greyscale</a> |
+                 <a href="images/bw-ds-case-with-hand@bella-lemmons.jpg" target="_blank">Original Image in Black and White</a></p>
+            </article>
+            
+            <article>
+                <h4>Downsizing Images with CSS</h4>
+                <figure>
+                    <img style="width: 300px; height: 351px;" src="images/ds-case-with-hand@bella-lemmons.jpg" alt="A photo of a DS game and stylus case with a rainbow liquid pattern, plus a hand making a peace sign next to it.">
+                    <figcaption>The original image downsized to 300x351 using CSS.</figcaption>
+                </figure>
+            </article>
+
+            <article>
+                <h4>Proper Reduction of Image with Editor</h4>
+                <figure>
+                    <img src="images/300x351-ds-case-with-hand@bella-lemmons.jpg" alt="A photo of a DS game and stylus case with a rainbow liquid pattern, plus a hand making a peace sign next to it.">
+                    <figcaption>The original image downsized to 300x351 using an image editor.</figcaption>
+                </figure>
+            </article>
+            
+            <article>
+                <h4>Improper Image Proportions with CSS</h4>
+                <figure>
+                    <img style="width: 300px; height: 66px;" src="images/300x351-ds-case-with-hand@bella-lemmons.jpg" alt="A photo of a DS game and stylus case with a rainbow liquid pattern, plus a hand making a peace sign next to it.">
+                    <figcaption>
+                        The resized image with its height set to 116px (~33% of 351).
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img style="width: 300px; height: 22px;" src="images/300x351-ds-case-with-hand@bella-lemmons.jpg" alt="A photo of a DS game and stylus case with a rainbow liquid pattern, plus a hand making a peace sign next to it.">
+                    <figcaption>
+                        The resized image with its height set to 38px (~33% of 116).
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img style="width: 99px; height: 200px;" src="images/300x351-ds-case-with-hand@bella-lemmons.jpg" alt="A photo of a DS game and stylus case with a rainbow liquid pattern, plus a hand making a peace sign next to it.">
+                    <figcaption>
+                        The resized image with its width set to 99px (33% of 300).
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img style="width: 33px; height: 200px;" src="images/300x351-ds-case-with-hand@bella-lemmons.jpg" alt="A photo of a DS game and stylus case with a rainbow liquid pattern, plus a hand making a peace sign next to it.">
+                    <figcaption>
+                        The resized image with its width set to 33px (~33% of 99).
+                    </figcaption>
+                </figure>
+            </article>
+
+            <article>
+                <h4>Improper Enlarging with CSS</h4>
+                <figure>
+                    <img src="images/300x351-ds-case-with-hand@bella-lemmons.jpg" alt="A photo of a DS game and stylus case with a rainbow liquid pattern, plus a hand making a peace sign next to it.">
+                    <figcaption>The resized image, unchanged.</figcaption>
+                </figure>
+
+                <figure>
+                    <img style="width: 300px; height: 351px;" src="images/75x88-ds-case-with-hand@bella-lemmons.jpg" alt="A photo of a DS game and stylus case with a rainbow liquid pattern, plus a hand making a peace sign next to it.">
+                    <figcaption>The resized image downsized to 75x88 using an image editor, then resized to 300x351 using CSS.</figcaption>
+                </figure>
+                
+            </article>
+            </section>
+        </div>
+
+        </main>
+
+        <div data-include="components/footer.html"></div>
+        <script src="scripts/HTMLInclude.min.js"></script>
+    </body>
+</html>
