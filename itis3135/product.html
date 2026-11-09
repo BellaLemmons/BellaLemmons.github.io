@@ -11,16 +11,27 @@
     
 <body>
     <div data-include="components/header.html"></div>
-<!--Div used for the same reason as every other page.-->
+<!--Div used for the same reason as every other page. Class and ID used for the flex box, inline style used for images in flex box.-->
     <main>
         <div class="container">
             <h2>Product</h2>
-            <p>This is where product will go.</p>
             <section>
-                <h3>Section 1</h3>
+                <h3>Our Mission</h3>
+                <p>So many devices now are the same boring few shades; it's hard to find something that truly pops. We want to bring back the joy and color that the Y2K "clear tech" craze brought to the world, so that's exactly what we'll do - one piece of tech at a time!</p>
             </section>
             <section>
-                <h3>Section 2</h3>
+                <h3>Our Products</h3>
+                <div id="flex">
+                    <div class="flex-image">
+                        <img src="images/translucent-controller-casing.webp" alt="A console controller with a translucent blue-green gradient case.">
+                    </div>
+                    <div class="flex-image">
+                        <img src="images/rainbow-mouse.jpg" alt="A computer mouse with a clear case and RGB lights.">
+                    </div>
+                    <div class="flex-image">
+                        <img src="images/clear-shell-switch-controllers.webp" alt="Red and blue Nintendo switch controllers with translucent casing.">
+                    </div>
+                </div>
             </section>
         </div>
     </main>

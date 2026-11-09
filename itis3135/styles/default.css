@@ -70,6 +70,28 @@ fieldset{
     background-color: #da318534
 }
 
+table, th, td{
+    margin: auto;
+    border: 1px solid #e9e9f0;
+}
+
+#flex{
+    display: flex;
+}
+
+.flex-image{
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.flex-image img{
+    width: 100%;
+}
+
+code{
+    border: 1px dotted #e9e9f0;
+}
+
 @media screen and (max-width: 600px){
 
 }

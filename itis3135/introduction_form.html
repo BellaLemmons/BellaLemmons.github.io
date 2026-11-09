@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bella Lemmons's Bright-colored Lizard | ITIS3135 | Introduction Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/default.css">
+        <link rel="icon" type="image/x-icon" href="../images/spaceinvader.ico">
+        <script src="https://divonbriesen.github.io/teaching/tools/standards-check.js" defer></script>
+        <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div data-include="components/header.html"></div>
+        
+        <main>
+            <h2>Introduction Form</h2>
+            <h3>Please Submit the Form Below.</h3>
+
+            <!--IDs used to connect inputs to labels. Div used to center buttons.-->
+
+            <form action="javascript code whatever">
+                <fieldset>
+                    <legend>Basic Information + Format</legend>
+                    <label for="firstname">First Name:</label><br>
+                    <input type="text" id="firstname" name="firstname" placeholder="John" value="Isabelle" required><br><br>
+
+                    <label for="middlename">Middle Name/Initial:</label><br>
+                    <input type="text" id="middlename" name="middlename" placeholder="H." value="Hailey"><br><br>
+
+                    <label for="nickname">Nickname/Preferred Name:</label><br>
+                    <input type="text" id="nickname" name="nickname" placeholder="Jack" value="Bella"><br><br>
+
+                    <label for="lastname">Last Name:</label><br>
+                    <input type="text" id="lastname" name="lastname" placeholder="Doe" value="Lemmons" required><br><br>
+
+                    <label for="statement">Acknowledgement Statement:</label><br>
+                    <textarea id="statement" name="statement" placeholder="Enter your acknowledgement statement here." required>I understand that this is a public document, and I won’t put anything here I wouldn’t want anyone to see</textarea><br><br>
+
+                    <label for="date">Acknowledgement Date:</label><br>
+                    <input type="date" id="date" name="date" required><br><br>
+
+                    <label for="mascotadj">Mascot Adjective:</label><br>
+                    <input type="text" id="mascotadj" name="mascotadj" placeholder="Enter an adjective here. An adjective is something that describes a noun (e.g. color, texture, personality, etc)." value="Bright-colored" required><br><br>
+                    
+                    <label for="mascotanimal">Mascot Animal:</label><br>
+                    <input type="text" id="mascotanimal" name="mascot animal" placeholder="Enter an animal here." value="Lizard" required><br>
+
+                    <label for="divider">Divider Symbol:</label><br>
+                    <input type="text" id="divider" name="divider" placeholder="Enter a symbol here." value="|" required><br><br>
+
+                    <label for="picture">Picture:</label><br>
+                    <input type="file" id="picture" name="picture" accept="image/png, image/jpg, image/jpeg" value="images/selfie.jpg" required><br><br>
+                    
+                    <label for="caption">Picture Caption:</label><br>
+                    <input type="text" id="caption" name="caption" placeholder="This is a caption." value="A selfie from a year ago." required><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>About You</legend>
+                    <label for="personalstatement">Personal Statement:</label><br>
+                    <textarea id="personalstatement" name="personalstatement" placeholder="Enter a statement talking about yourself." required>Hello! As you can see, my name is Bella (though I also go by Isaac). I use any pronouns, 
+                        so you may refer to me however you see fit: He, she, they, it, whatever comes to mind.
+                         I am currently in my last semester of my computer science degree. I’m hoping to use my degree to both find a job in the computer science industry and to help get me started towards making indie games on my own. 
+                         I have a lot of different hobbies that I like to do when I'm not busy with schoolwork. My most recent hobby that I've been getting into is voice acting, but I also enjoy playing video games, drawing, writing, and crocheting. 
+                         Maybe one day I can make a small career out of my voice work!</textarea><br><br>
+
+                    <label for="personalbg">Personal Background:</label><br>
+                    <textarea id="personalbg" name="personalbg" required> I've always enjoyed making different worlds and characters. I've also always enjoyed playing video games. Why not combine the two?</textarea><br><br>
+
+                    <label for="professionalbg">Professional Background:</label><br>
+                    <textarea id="professionalbg" name="professionalbg" required>Unfortunately I work at Arby's. I'm hoping to find a new job soon because I genuinely hate it there, LOL.</textarea><br><br>
+
+                    <label for="academicbg">Academic Background:</label><br>
+                    <textarea id="academicbg" name="academicbg" required>Computer Science major with a concentration in game development.</textarea><br><br>
+
+                    <label for="primarypc">Primary Work Computer:</label><br>
+                    <input type="text" id="primarypc" name="primarypc" value="CyperPowerPC, PC, Windows 11 25H2" required><br><br>
+
+                    <label for="primarylocation">Primary Work Location:</label><br>
+                    <input type="text" id="primarylocation" name="primarylocation" value="My bedroom" required><br><br>
+
+                   <label for="altpclocation">Alternate Computer and Location:</label><br>
+                   <input type="text" id="altpclocation" name="altpclocation" value="Lenovo Gaming Laptop, anywhere with wifi and a nearby outlet." required><br><br>
+
+                   <!--Input for the courses goes here-->
+
+                   <label for="funfact">Fun Fact (optional):</label><br>
+                   <textarea id="funfact" name="funfact" placeholder="Enter a fun fact about yourself."></textarea><br><br>
+
+                   <label for="extrafact">Something You'd Like to Share (optional):</label><br>
+                   <textarea id="extrafact" name="extrafact" placeholder="Enter something else you'd like to share."></textarea><br><br>
+                        
+                   <label for="quote">Quote (quotation marks not needed)</label><br>
+                   <textarea id="quote" name="quote" placeholder="Enter a quote that you like." required>Broken crayons still color.</textarea><br><br>
+
+                   <label for="quotesource">Quote Source/Author:</label><br>
+                   <input type="text" id="quotesource" placeholder="Enter the source or author of your quote." name="quotesource" value="Unknown" required><br><br>
+                
+                </fieldset>
+
+                <fieldset>
+                    <legend>Links</legend>
+                    <label for="cltweb">CLT Web:</label><br>
+                   <input type="url" id="cltweb" name="cltweb" value="" placeholder="Enter the link to your CLT Webpage." required><br>
+
+                   <label for="githubio">GitHub.io:</label><br>
+                   <input type="url" id="githubio" name="githubio" value="" placeholder="Enter the link to your GitHub.io webpage." required><br><br>
+                   
+                   <label for="github">GitHub:</label><br>
+                   <input type="url" id="github" name="github" value="" placeholder="Enter the link to your GitHub profile." required><br><br>
+
+                   <label for="freecodecamp">FreeCodeCamp:</label><br>
+                   <input type="url" id="freecodecamp" name="freecodecamp" value="" placeholder="Enter the link to your freeCodeCamp profile." required><br><br>
+
+                   <label for="codecademy">Codecademy:</label><br>
+                   <input type="url" id="codecademy" name="codecademy" value="" placeholder="Enter the link to your Codecademy profile." required><br><br>
+
+                   <label for="linkedin">LinkedIn:</label><br>
+                   <input type="url" id="linkedin" name="linkedin" value="" placeholder="Enter the link to your LinkedIn profile." required><br><br>
+                </fieldset>
+                   
+                <div>
+                   <button type="submit">Submit</button>
+                   <button type="reset">Reset</button>
+                   <button type="button">Clear</button>
+                </div>
+
+                </fieldset>
+            </form>
+
+
+        </main>
+
+        <div data-include="components/footer.html"></div>
+        <script src="scripts/HTMLInclude.min.js"></script>
+    </body>
+</html>
